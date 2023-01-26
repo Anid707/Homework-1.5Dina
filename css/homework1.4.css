@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #FFFAF3;
+    padding: 0 0 68px 180px;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.wrapper{
+    width: 50%;
+    padding: 43px 0 63px 0;
+}
+
+.flex-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+nav a.home{
+    color: #C08D5D;
+}
+
+.header{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separator{
+    content: " ";
+    background-color: #C08D5D;
+    width: 80%;
+    height: 1px;
+    margin: 43px 0 123px 0;
+}
+
+.text-block{
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.food-flex{
+    display: flex;
+    align-items: center;
+}
+
+.food-flex img{
+    width: 9%;
+    height: 9%;
+}
+
+h1{
+    margin-right: 8px;
+    font-family: 'Yeseva One';
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 400;
+}
+
+h2{
+    margin: 11px 0 45px 0;
+    font-family: 'Yeseva One';
+    font-size: 70px;
+    line-height: 81px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.line-curve{
+    width: 165px;
+    height: 12px;
+}
+
+.text-block p{
+    margin: 26px 67px 72px 0;
+    font-size: 18px;
+    line-height: 148%;
+    max-width: 80%;
+}
+
+.text-block a{
+    font-size: 20px;
+    line-height: 148%;
+    text-decoration: none;
+    color: #3F4042;
+    border: 2px solid #C08D5D;
+    padding: 17px 70px 17px 15px;
+    position: relative;
+}
+
+.text-block a::after{
+    content: url("../img/read_more-icon.svg");
+    text-align: center;
+    background-color: #C08D5D;
+    background-size: cover;
+    padding: 8px 0;
+    width: 62px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.image-mouse{
+    text-align: center;
+    position: fixed;
+    bottom: 69px;
+    left: 703px;
+    z-index: 2;
+}
+
+
+
